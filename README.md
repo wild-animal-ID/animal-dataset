@@ -16,7 +16,6 @@ Automated wildlife identification can considerably minimise the time and effort 
  
 ### Usage
 #### data
-
  The data of each species category is under the data folder. 
  eg. `data/Mammals/train.txt` and `data/Mammals/val.txt` . 
  The format must be like following:
@@ -47,9 +46,18 @@ python finetune.py [options]
 
 # You can observe finetuning with the tensorboard (default tensorboard_root_dir is ../training)
 tensorboard --logdir ../training
+
+# Start predict
+python predict.py 
+```
+
+#### utils
+```
+preprocess.py: process the image read from the data file
 ```
 #### code reference
 https://github.com/kratzert/finetune_alexnet_with_tensorflow/
+
 
 ## [DataSet](https://github.com/wild-animal-ID/animal-dataset)
 ### Species catalog.xls
