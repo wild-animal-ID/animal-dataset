@@ -15,7 +15,8 @@ Automated wildlife identification can considerably minimise the time and effort 
  * OpenCV2
  
 ### Usage
-data
+#### data
+
  The data of each species category is under the data folder. 
  eg. `data/Mammals/train.txt` and `data/Mammals/val.txt` . 
  The format must be like following:
